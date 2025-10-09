@@ -1,0 +1,936 @@
+[
+  {
+    "dialogue_id": 1,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 60,
+        "justification": "The agent gathered some information about movie preferences but struggled with deeper elicitation, requiring multiple prompts for clarification."
+      },
+      "Helpfulness": {
+        "score": 60,
+        "justification": "The agent provided some relevant questions, but the prompts were often generic and required the user to elaborate extensively."
+      },
+      "Accuracy": {
+        "score": 80,
+        "justification": "The agent's statements were consistent with the user's responses, but the information gathered was not deeply probed."
+      },
+      "Understanding": {
+        "score": 40,
+        "justification": "The agent had to repeatedly ask for clarification, indicating a partial misunderstanding of the user's intent in the initial turns."
+      },
+      "Empathy": {
+        "score": 40,
+        "justification": "The agent maintained a polite but neutral and robotic tone throughout the conversation."
+      },
+      "Fluency": {
+        "score": 40,
+        "justification": "The dialogue contained repetitive phrasing and choppy exchanges, hindering a natural flow."
+      },
+      "OverallExperience": {
+        "score": 60,
+        "justification": "Weighted average of all criteria, rounded down to the nearest level according to the scale."
+      }
+    }
+  },
+  {
+    "dialogue_id": 3,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 80,
+        "justification": "The agent successfully elicited a variety of movie preferences and dislikes but lacked explicit confirmation of user satisfaction."
+      },
+      "Helpfulness": {
+        "score": 80,
+        "justification": "The agent asked relevant questions that helped the user articulate their preferences, though some prompts could have been more detailed."
+      },
+      "Accuracy": {
+        "score": 100,
+        "justification": "All statements made by the agent were consistent with the dialogue and user input."
+      },
+      "Understanding": {
+        "score": 80,
+        "justification": "The agent understood the user's general intent and followed the conversation flow appropriately."
+      },
+      "Empathy": {
+        "score": 60,
+        "justification": "The agent was polite but maintained a neutral and professional tone without explicit empathy."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The agent's language was clear and coherent, with only minor instances of less natural phrasing."
+      },
+      "OverallExperience": {
+        "score": 80,
+        "justification": "Weighted average of all criteria, rounded down to the nearest level according to the scale."
+      }
+    }
+  },
+  {
+    "dialogue_id": 2,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 80,
+        "justification": "The agent successfully elicited movie preferences and dislikes, though explicit confirmation of satisfaction was missing."
+      },
+      "Helpfulness": {
+        "score": 80,
+        "justification": "The agent asked pertinent questions that allowed the user to express their opinions and preferences effectively."
+      },
+      "Accuracy": {
+        "score": 100,
+        "justification": "The agent's responses and questions were accurate and consistent with the dialogue."
+      },
+      "Understanding": {
+        "score": 80,
+        "justification": "The agent demonstrated a good understanding of the user's stated preferences and followed the conversational path."
+      },
+      "Empathy": {
+        "score": 60,
+        "justification": "The agent was polite and professional but did not exhibit explicit empathy or warm phrasing."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The agent's language was generally clear and coherent, with only minor occasional awkwardness."
+      },
+      "OverallExperience": {
+        "score": 80,
+        "justification": "Weighted average of all criteria, rounded down to the nearest level according to the scale."
+      }
+    }
+  },
+  {
+    "dialogue_id": 7,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 80,
+        "justification": "The agent gathered a good amount of information about the user's movie preferences, but lacked explicit confirmation of satisfaction."
+      },
+      "Helpfulness": {
+        "score": 80,
+        "justification": "The agent asked relevant questions that helped the user articulate their preferences and dislikes."
+      },
+      "Accuracy": {
+        "score": 100,
+        "justification": "The agent's responses were consistent and accurately reflected the user's input throughout the dialogue."
+      },
+      "Understanding": {
+        "score": 80,
+        "justification": "The agent understood the user's intent and followed the conversation logically, asking clarifying questions when needed."
+      },
+      "Empathy": {
+        "score": 60,
+        "justification": "The agent was polite and professional but lacked explicit empathetic statements or warm language."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The agent's dialogue was mostly clear and coherent, with only occasional minor phrasing issues."
+      },
+      "OverallExperience": {
+        "score": 80,
+        "justification": "Weighted average of all criteria, rounded down to the nearest level according to the scale."
+      }
+    }
+  },
+  {
+    "dialogue_id": 9,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 80,
+        "justification": "The agent elicited a range of movie preferences but did not seek explicit user confirmation of satisfaction."
+      },
+      "Helpfulness": {
+        "score": 80,
+        "justification": "The agent asked relevant questions that helped the user express their likes and dislikes regarding movies."
+      },
+      "Accuracy": {
+        "score": 100,
+        "justification": "The agent's questions and responses were accurate and consistent with the user's statements."
+      },
+      "Understanding": {
+        "score": 80,
+        "justification": "The agent understood the user's movie preferences and dislikes and followed the conversation flow."
+      },
+      "Empathy": {
+        "score": 60,
+        "justification": "The agent maintained a polite and professional demeanor, but did not include explicit empathy or warmth."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The agent's dialogue was clear and coherent, with only minor instances of slightly awkward phrasing."
+      },
+      "OverallExperience": {
+        "score": 80,
+        "justification": "Weighted average of all criteria, rounded down to the nearest level according to the scale."
+      }
+    }
+  },
+  {
+    "dialogue_id": 15,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 80,
+        "justification": "The agent gathered a good amount of information about the user's movie preferences and dislikes but did not receive explicit confirmation of satisfaction."
+      },
+      "Helpfulness": {
+        "score": 80,
+        "justification": "The agent asked relevant questions that allowed the user to articulate their nuanced movie tastes effectively."
+      },
+      "Accuracy": {
+        "score": 100,
+        "justification": "All statements and questions from the agent were accurate and consistent with the dialogue's context."
+      },
+      "Understanding": {
+        "score": 80,
+        "justification": "The agent demonstrated a good understanding of the user's movie preferences and dislikes, responding appropriately."
+      },
+      "Empathy": {
+        "score": 60,
+        "justification": "The agent was polite and professional, but did not offer any explicit expressions of empathy."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The agent's dialogue was clear and coherent, with only minor issues in phrasing."
+      },
+      "OverallExperience": {
+        "score": 80,
+        "justification": "Weighted average of all criteria, rounded down to the nearest level according to the scale."
+      }
+    }
+  },
+  {
+    "dialogue_id": 10,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 80,
+        "justification": "The agent successfully gathered information about the user's movie preferences and dislikes but lacked explicit confirmation of satisfaction."
+      },
+      "Helpfulness": {
+        "score": 80,
+        "justification": "The agent asked relevant questions that allowed the user to articulate their preferences and reasoning effectively."
+      },
+      "Accuracy": {
+        "score": 100,
+        "justification": "The agent's questions and responses were accurate and consistent with the user's input throughout the dialogue."
+      },
+      "Understanding": {
+        "score": 80,
+        "justification": "The agent understood the user's preferences and followed the conversation flow logically."
+      },
+      "Empathy": {
+        "score": 60,
+        "justification": "The agent was polite and professional but did not express explicit empathy or warmth."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The agent's dialogue was clear and coherent, with only minor occasional awkwardness."
+      },
+      "OverallExperience": {
+        "score": 80,
+        "justification": "Weighted average of all criteria, rounded down to the nearest level according to the scale."
+      }
+    }
+  },
+  {
+    "dialogue_id": 20,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 60,
+        "justification": "The agent gathered some basic preferences but failed to elicit specific disliked movies or detailed reasons."
+      },
+      "Helpfulness": {
+        "score": 40,
+        "justification": "The agent's prompts were very basic and lacked depth, not eliciting much detailed information."
+      },
+      "Accuracy": {
+        "score": 80,
+        "justification": "The agent's statements were consistent with the user's responses, but the information was shallow."
+      },
+      "Understanding": {
+        "score": 40,
+        "justification": "The agent struggled to elicit specific dislikes, indicating a partial lack of understanding or inability to probe deeper."
+      },
+      "Empathy": {
+        "score": 40,
+        "justification": "The agent's tone was robotic and impersonal throughout the conversation."
+      },
+      "Fluency": {
+        "score": 40,
+        "justification": "The dialogue was choppy and repetitive, lacking natural flow."
+      },
+      "OverallExperience": {
+        "score": 40,
+        "justification": "Weighted average of all criteria, rounded down to the nearest level according to the scale."
+      }
+    }
+  },
+  {
+    "dialogue_id": 13,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 80,
+        "justification": "The agent gathered a range of movie preferences and dislikes, but did not elicit explicit user confirmation of satisfaction."
+      },
+      "Helpfulness": {
+        "score": 80,
+        "justification": "The agent asked relevant questions that allowed the user to express their movie preferences and reasons."
+      },
+      "Accuracy": {
+        "score": 100,
+        "justification": "The agent's questions were accurate and consistent with the dialogue, without introducing external information."
+      },
+      "Understanding": {
+        "score": 80,
+        "justification": "The agent demonstrated a good understanding of the user's preferences and dislikes and followed the conversation logically."
+      },
+      "Empathy": {
+        "score": 60,
+        "justification": "The agent maintained a polite and professional tone but did not include explicit empathetic statements."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The agent's dialogue was clear and coherent, with only minor occasional awkwardness."
+      },
+      "OverallExperience": {
+        "score": 80,
+        "justification": "Weighted average of all criteria, rounded down to the nearest level according to the scale."
+      }
+    }
+  },
+  {
+    "dialogue_id": 29,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 80,
+        "justification": "The agent successfully elicited movie preferences and dislikes but lacked explicit user confirmation of satisfaction."
+      },
+      "Helpfulness": {
+        "score": 80,
+        "justification": "The agent asked relevant questions that helped the user articulate their preferences and reasoning clearly."
+      },
+      "Accuracy": {
+        "score": 100,
+        "justification": "The agent's questions and responses were accurate and consistent with the dialogue's context."
+      },
+      "Understanding": {
+        "score": 80,
+        "justification": "The agent understood the user's movie preferences and dislikes, responding appropriately and following the conversation."
+      },
+      "Empathy": {
+        "score": 60,
+        "justification": "The agent was polite and professional but did not express explicit empathy or warmth."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The agent's dialogue was clear and coherent, with only minor occasional phrasing issues."
+      },
+      "OverallExperience": {
+        "score": 80,
+        "justification": "Weighted average of all criteria, rounded down to the nearest level according to the scale."
+      }
+    }
+  },
+  {
+    "TaskSuccess": {
+      "score": 60,
+      "justification": "The agent successfully gathered user preferences and opinions on movies but struggled to elicit specific reasons for disliking some movies, leading to partial fulfillment."
+    },
+    "Helpfulness": {
+      "score": 60,
+      "justification": "The agent asked relevant questions about movie preferences, but the prompts were somewhat generic and lacked depth in probing for more detailed explanations."
+    },
+    "Accuracy": {
+      "score": 100,
+      "justification": "All statements made by the agent were consistent with the dialogue and did not introduce any contradictions or unverified information."
+    },
+    "Understanding": {
+      "score": 80,
+      "justification": "The agent generally understood the user's intent, asking follow-up questions that were relevant to the user's responses, although some prompts could have been more specific."
+    },
+    "Empathy": {
+      "score": 60,
+      "justification": "The agent maintained a polite and neutral tone throughout the conversation, but there was no explicit display of empathy or emotional tailoring."
+    },
+    "Fluency": {
+      "score": 80,
+      "justification": "The agent's language was generally clear and coherent, with minor awkwardness in phrasing but remaining understandable."
+    },
+    "OverallExperience": {
+      "score": 60,
+      "justification": "Weighted average of all criteria, rounded down to the nearest level according to the scale."
+    }
+  },
+  {
+    "dialogue_id": 32,
+    "TaskSuccess": {
+      "score": 80,
+      "justification": "The agent successfully elicited movie preferences, liked movies, and disliked movies, but did not explicitly confirm user satisfaction."
+    },
+    "Helpfulness": {
+      "score": 60,
+      "justification": "The agent asked relevant questions to gather movie preferences, but the questions were somewhat generic and lacked depth in elicitation."
+    },
+    "Accuracy": {
+      "score": 100,
+      "justification": "All information provided by the agent was consistent with the user's statements and there were no apparent contradictions."
+    },
+    "Understanding": {
+      "score": 80,
+      "justification": "The agent generally understood the user's intent, asking follow-up questions based on previous responses, but some questions were a bit broad."
+    },
+    "Empathy": {
+      "score": 60,
+      "justification": "The agent maintained a polite and neutral tone throughout the conversation, but did not exhibit explicit empathy."
+    },
+    "Fluency": {
+      "score": 80,
+      "justification": "The agent's responses were largely coherent and understandable, with only minor awkwardness in phrasing."
+    },
+    "OverallExperience": {
+      "score": 80,
+      "justification": "Weighted average: (0.40*80 + 0.15*60 + 0.15*100 + 0.10*80 + 0.10*60 + 0.10*80) = 78. Rounded low bias: 80."
+    }
+  },
+  {
+    "dialogue_id": 40,
+    "TaskSuccess": {
+      "score": 80,
+      "justification": "The agent gathered information about liked and disliked comedies, though the interaction felt somewhat abrupt at the end."
+    },
+    "Helpfulness": {
+      "score": 60,
+      "justification": "The agent provided some guidance by asking about specific movie types and titles, but the interaction lacked depth in exploring user preferences."
+    },
+    "Accuracy": {
+      "score": 80,
+      "justification": "The agent's responses were consistent with the dialogue flow, but some prompts were superficial."
+    },
+    "Understanding": {
+      "score": 80,
+      "justification": "The agent followed the user's lead in discussing movie genres and specific titles, demonstrating a reasonable understanding of the conversation's direction."
+    },
+    "Empathy": {
+      "score": 40,
+      "justification": "The agent's tone was polite but robotic, lacking any expressions of warmth or personal connection."
+    },
+    "Fluency": {
+      "score": 80,
+      "justification": "The dialogue was generally clear and understandable, with no significant grammatical errors, though it lacked natural conversational flow."
+    },
+    "OverallExperience": {
+      "score": 70,
+      "justification": "Weighted average: (0.40*80 + 0.15*60 + 0.15*80 + 0.10*80 + 0.10*40 + 0.10*80) = 74. Rounded low bias: 70."
+    }
+  },
+  {
+    "dialogue_id": 35,
+    "TaskSuccess": {
+      "score": 80,
+      "justification": "The agent elicited information about liked and disliked movies and genres, but the interaction ended without explicit user confirmation of satisfaction."
+    },
+    "Helpfulness": {
+      "score": 80,
+      "justification": "The agent provided detailed prompts that encouraged descriptive responses, leading to useful information about user preferences."
+    },
+    "Accuracy": {
+      "score": 100,
+      "justification": "The agent's questions and responses were factually consistent with the dialogue and did not introduce any contradictions."
+    },
+    "Understanding": {
+      "score": 100,
+      "justification": "The agent accurately interpreted the user's intent and asked pertinent follow-up questions to gain deeper insights into their preferences."
+    },
+    "Empathy": {
+      "score": 60,
+      "justification": "The agent was polite and professional, but did not display any explicit emotional resonance or tailored empathetic phrases."
+    },
+    "Fluency": {
+      "score": 80,
+      "justification": "The agent's language was mostly clear and coherent, with only minor instances of slightly awkward phrasing."
+    },
+    "OverallExperience": {
+      "score": 84,
+      "justification": "Weighted average: (0.40*80 + 0.15*80 + 0.15*100 + 0.10*100 + 0.10*60 + 0.10*80) = 84. Rounded low bias: 80."
+    }
+  },
+  {
+    "dialogue_id": 46,
+    "TaskSuccess": {
+      "score": 80,
+      "justification": "The agent successfully elicited movie preferences, liked and disliked titles, and reasons for these preferences, but there was no explicit confirmation of user satisfaction."
+    },
+    "Helpfulness": {
+      "score": 80,
+      "justification": "The agent's prompts were specific and requested detailed reasons, leading to useful information about the user's movie tastes."
+    },
+    "Accuracy": {
+      "score": 100,
+      "justification": "The agent's questions and understanding of the user's input were consistent and accurate throughout the dialogue."
+    },
+    "Understanding": {
+      "score": 100,
+      "justification": "The agent clearly understood the user's intent and asked precise questions to gather relevant information about their movie preferences."
+    },
+    "Empathy": {
+      "score": 60,
+      "justification": "The agent maintained a polite and professional demeanor, but did not incorporate any expressions of empathy or personal warmth."
+    },
+    "Fluency": {
+      "score": 80,
+      "justification": "The dialogue was generally fluent and easy to follow, with clear grammar and sentence structure."
+    },
+    "OverallExperience": {
+      "score": 84,
+      "justification": "Weighted average: (0.40*80 + 0.15*80 + 0.15*100 + 0.10*100 + 0.10*60 + 0.10*80) = 84. Rounded low bias: 80."
+    }
+  },
+  {
+    "dialogue_id": 37,
+    "TaskSuccess": {
+      "score": 100,
+      "justification": "The agent successfully gathered extensive details on liked and disliked movies, and the user confirmed the agent's understanding, indicating full satisfaction."
+    },
+    "Helpfulness": {
+      "score": 100,
+      "justification": "The agent asked insightful questions that elicited detailed and well-reasoned explanations from the user, providing highly valuable information."
+    },
+    "Accuracy": {
+      "score": 100,
+      "justification": "The agent accurately reflected the user's sentiments and reasons, demonstrating a strong grasp of the conversation's content without errors."
+    },
+    "Understanding": {
+      "score": 100,
+      "justification": "The agent demonstrated perfect understanding by accurately summarizing and reflecting the user's complex explanations and feelings."
+    },
+    "Empathy": {
+      "score": 80,
+      "justification": "The agent showed understanding of the user's feelings ('I understand why you enjoy those films,' 'I understand and I see your view') which contributes to warmth, though not deeply empathetic."
+    },
+    "Fluency": {
+      "score": 80,
+      "justification": "The dialogue was mostly fluent, though the agent's final closing remark was slightly abrupt."
+    },
+    "OverallExperience": {
+      "score": 94,
+      "justification": "Weighted average: (0.40*100 + 0.15*100 + 0.15*100 + 0.10*100 + 0.10*80 + 0.10*80) = 94. Rounded low bias: 100."
+    }
+  },
+  {
+    "dialogue_id": 213,
+    "TaskSuccess": {
+      "score": 80,
+      "justification": "The agent gathered information on liked and disliked genres and specific movies, but the dialogue ended without explicit confirmation of overall user satisfaction."
+    },
+    "Helpfulness": {
+      "score": 80,
+      "justification": "The agent asked relevant questions to understand movie preferences, eliciting reasons for likes and dislikes, although the depth of exploration could have been greater."
+    },
+    "Accuracy": {
+      "score": 100,
+      "justification": "The agent accurately processed and responded to the user's statements, maintaining consistency throughout the conversation."
+    },
+    "Understanding": {
+      "score": 80,
+      "justification": "The agent followed the user's discourse and asked appropriate follow-up questions, showing a good grasp of the user's stated preferences."
+    },
+    "Empathy": {
+      "score": 60,
+      "justification": "The agent was polite but maintained a neutral tone, without incorporating explicit empathetic statements or emotional phrasing."
+    },
+    "Fluency": {
+      "score": 80,
+      "justification": "The dialogue was generally fluent and coherent, with clear language and sentence structure."
+    },
+    "OverallExperience": {
+      "score": 80,
+      "justification": "Weighted average: (0.40*80 + 0.15*80 + 0.15*100 + 0.10*80 + 0.10*60 + 0.10*80) = 82. Rounded low bias: 80."
+    }
+  },
+  {
+    "dialogue_id": 53,
+    "TaskSuccess": {
+      "score": 80,
+      "justification": "The agent successfully elicited user preferences for action and superhero movies, including specific titles and reasons for liking/disliking them, but lacked explicit user satisfaction confirmation."
+    },
+    "Helpfulness": {
+      "score": 80,
+      "justification": "The agent asked specific questions about movie preferences and provided examples, eliciting detailed reasons for likes and dislikes."
+    },
+    "Accuracy": {
+      "score": 100,
+      "justification": "The agent accurately reflected the user's opinions and preferences without contradiction or misrepresentation."
+    },
+    "Understanding": {
+      "score": 100,
+      "justification": "The agent demonstrated a strong understanding by asking relevant follow-up questions based on the user's enthusiastic responses."
+    },
+    "Empathy": {
+      "score": 40,
+      "justification": "The agent's tone was primarily functional and polite, lacking personal warmth or explicit empathetic expressions."
+    },
+    "Fluency": {
+      "score": 80,
+      "justification": "The dialogue was generally clear and understandable, with only minor instances of slightly informal phrasing."
+    },
+    "OverallExperience": {
+      "score": 82,
+      "justification": "Weighted average: (0.40*80 + 0.15*80 + 0.15*100 + 0.10*100 + 0.10*40 + 0.10*80) = 82. Rounded low bias: 80."
+    }
+  },
+  {
+    "dialogue_id": 407,
+    "TaskSuccess": {
+      "score": 80,
+      "justification": "The agent successfully gathered information on liked and disliked movies and genres, but the conversation ended without explicit confirmation of user satisfaction."
+    },
+    "Helpfulness": {
+      "score": 80,
+      "justification": "The agent asked targeted questions that elicited specific reasons for the user's preferences, providing actionable insights."
+    },
+    "Accuracy": {
+      "score": 100,
+      "justification": "The agent accurately interpreted and responded to the user's statements, maintaining consistency throughout the dialogue."
+    },
+    "Understanding": {
+      "score": 100,
+      "justification": "The agent demonstrated excellent understanding by posing follow-up questions that directly addressed the user's detailed explanations."
+    },
+    "Empathy": {
+      "score": 40,
+      "justification": "The agent's tone was polite and professional, but lacked any expressions of warmth or emotional connection."
+    },
+    "Fluency": {
+      "score": 80,
+      "justification": "The dialogue was clear and coherent, with standard grammar and sentence structure, although slightly formal."
+    },
+    "OverallExperience": {
+      "score": 84,
+      "justification": "Weighted average: (0.40*80 + 0.15*80 + 0.15*100 + 0.10*100 + 0.10*40 + 0.10*80) = 84. Rounded low bias: 80."
+    }
+  },
+  {
+    "dialogue_id": 78,
+    "TaskSuccess": {
+      "score": 80,
+      "justification": "The agent successfully elicited information about liked and disliked movies and genres, but the conversation concluded without explicit confirmation of user satisfaction."
+    },
+    "Helpfulness": {
+      "score": 80,
+      "justification": "The agent's prompts were effective in gathering detailed reasons for movie preferences, providing useful insights into the user's tastes."
+    },
+    "Accuracy": {
+      "score": 100,
+      "justification": "The agent accurately understood and responded to the user's input, maintaining factual consistency throughout the dialogue."
+    },
+    "Understanding": {
+      "score": 100,
+      "justification": "The agent demonstrated a clear understanding by asking relevant follow-up questions that precisely targeted the user's explanations."
+    },
+    "Empathy": {
+      "score": 60,
+      "justification": "The agent maintained a polite and conversational tone but did not include any explicit expressions of empathy."
+    },
+    "Fluency": {
+      "score": 80,
+      "justification": "The dialogue was generally fluent and easy to understand, with clear language and structure."
+    },
+    "OverallExperience": {
+      "score": 84,
+      "justification": "Weighted average: (0.40*80 + 0.15*80 + 0.15*100 + 0.10*100 + 0.10*60 + 0.10*80) = 84. Rounded low bias: 80."
+    }
+  },
+  {
+    "dialogue_id": 93,
+    "TaskSuccess": {
+      "score": 80,
+      "justification": "The agent successfully gathered information on liked and disliked movie genres and specific titles, but the conversation ended without explicit user confirmation of satisfaction."
+    },
+    "Helpfulness": {
+      "score": 80,
+      "justification": "The agent asked relevant questions that elicited detailed explanations of the user's preferences and reasoning, providing valuable insights."
+    },
+    "Accuracy": {
+      "score": 100,
+      "justification": "The agent accurately processed the user's statements and maintained consistency in the dialogue without introducing errors."
+    },
+    "Understanding": {
+      "score": 100,
+      "justification": "The agent demonstrated a strong understanding by asking precise follow-up questions that directly addressed the user's explanations."
+    },
+    "Empathy": {
+      "score": 60,
+      "justification": "The agent was polite and conversational but did not use any explicit empathetic phrasing or demonstrate emotional awareness."
+    },
+    "Fluency": {
+      "score": 80,
+      "justification": "The dialogue was generally fluent and coherent, with clear language and grammar, though some responses were slightly informal."
+    },
+    "OverallExperience": {
+      "score": 84,
+      "justification": "Weighted average: (0.40*80 + 0.15*80 + 0.15*100 + 0.10*100 + 0.10*60 + 0.10*80) = 84. Rounded low bias: 80."
+    }
+  },
+  {
+    "dialogue_id": 138,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 80,
+        "justification": "The agent successfully elicited preferences for movie genres and specific examples, but there was no explicit user confirmation of satisfaction."
+      },
+      "Helpfulness": {
+        "score": 80,
+        "justification": "The agent provided relevant prompts that elicited detailed user preferences about movies."
+      },
+      "Accuracy": {
+        "score": 100,
+        "justification": "All statements and information provided by the agent were consistent and grounded within the dialogue."
+      },
+      "Understanding": {
+        "score": 80,
+        "justification": "The agent understood the user's intent for the most part, although some questions were generic and did not fully capture nuances."
+      },
+      "Empathy": {
+        "score": 40,
+        "justification": "The agent's tone was polite but lacked explicit empathy or emotional warmth, appearing somewhat robotic."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The dialogue was coherent and understandable, with only minor awkward phrasing in a few instances."
+      },
+      "OverallExperience": {
+        "score": 80,
+        "justification": "Weighted average of all criteria with low bias is 80."
+      }
+    }
+  },
+  {
+    "dialogue_id": 169,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 80,
+        "justification": "The agent elicited movie preferences and specific examples, but lacked explicit user confirmation of satisfaction."
+      },
+      "Helpfulness": {
+        "score": 60,
+        "justification": "The prompts were somewhat helpful but lacked depth, requiring the user to infer and expand on their responses."
+      },
+      "Accuracy": {
+        "score": 80,
+        "justification": "The information exchanged was consistent, though some responses were shallow and lacked detailed grounding."
+      },
+      "Understanding": {
+        "score": 80,
+        "justification": "The agent followed the user's intent for the most part, but the understanding was not deeply explored."
+      },
+      "Empathy": {
+        "score": 40,
+        "justification": "The agent's tone was polite but neutral and robotic, lacking any clear empathy."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The dialogue was generally clear and understandable, with minor issues in flow."
+      },
+      "OverallExperience": {
+        "score": 72,
+        "justification": "Weighted average of all criteria with low bias is 72, rounded down to 60 due to criteria scores below 60."
+      }
+    }
+  },
+  {
+    "dialogue_id": 150,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 80,
+        "justification": "The agent successfully elicited movie preferences and dislikes but lacked explicit user confirmation of satisfaction."
+      },
+      "Helpfulness": {
+        "score": 60,
+        "justification": "The agent provided some guidance but was limited in depth, requiring significant inference from the user."
+      },
+      "Accuracy": {
+        "score": 80,
+        "justification": "The information was consistent throughout the dialogue, though some responses were shallow."
+      },
+      "Understanding": {
+        "score": 80,
+        "justification": "The agent grasped the user's intent regarding movie preferences, but the interaction was not deeply explored."
+      },
+      "Empathy": {
+        "score": 40,
+        "justification": "The agent maintained a polite but neutral and robotic tone, lacking any indication of empathy."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The dialogue was coherent and easily understandable, with minimal awkward phrasing."
+      },
+      "OverallExperience": {
+        "score": 72,
+        "justification": "Weighted average of all criteria with low bias is 72, rounded down to 60 due to criteria scores below 60."
+      }
+    }
+  },
+  {
+    "dialogue_id": 152,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 80,
+        "justification": "The agent elicited movie preferences and dislikes but did not receive explicit confirmation of satisfaction from the user."
+      },
+      "Helpfulness": {
+        "score": 60,
+        "justification": "The prompts were somewhat helpful but lacked depth, requiring the user to infer and provide additional information."
+      },
+      "Accuracy": {
+        "score": 80,
+        "justification": "The provided information was consistent and grounded in the dialogue, though some responses were shallow."
+      },
+      "Understanding": {
+        "score": 80,
+        "justification": "The agent understood the user's intent for the most part, but the conversation lacked deeper exploration."
+      },
+      "Empathy": {
+        "score": 40,
+        "justification": "The agent's tone was polite but neutral and robotic, showing no signs of empathy."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The dialogue was generally coherent and understandable, with minor awkward phrasing."
+      },
+      "OverallExperience": {
+        "score": 72,
+        "justification": "Weighted average of all criteria with low bias is 72, rounded down to 60 due to criteria scores below 60."
+      }
+    }
+  },
+  {
+    "dialogue_id": 163,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 80,
+        "justification": "The agent elicited movie preferences and dislikes but lacked explicit user confirmation of satisfaction."
+      },
+      "Helpfulness": {
+        "score": 60,
+        "justification": "The prompts were somewhat helpful but lacked depth, requiring the user to infer and expand on their answers."
+      },
+      "Accuracy": {
+        "score": 100,
+        "justification": "All statements and information were consistent and directly supported by the dialogue."
+      },
+      "Understanding": {
+        "score": 80,
+        "justification": "The agent understood the user's intent, but the interaction did not delve into deeper nuances."
+      },
+      "Empathy": {
+        "score": 60,
+        "justification": "The agent was polite but maintained a neutral tone, lacking explicit empathy."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The dialogue was coherent and understandable, with only minor awkwardness in phrasing."
+      },
+      "OverallExperience": {
+        "score": 72,
+        "justification": "Weighted average of all criteria with low bias is 72, rounded down to 60 due to criteria scores below 60."
+      }
+    }
+  },
+  {
+    "dialogue_id": 273,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 80,
+        "justification": "The agent elicited movie preferences and dislikes but lacked explicit user confirmation of satisfaction."
+      },
+      "Helpfulness": {
+        "score": 80,
+        "justification": "The agent asked clarifying questions that led to detailed explanations of the user's preferences."
+      },
+      "Accuracy": {
+        "score": 100,
+        "justification": "All statements were consistent and grounded in the dialogue, with no contradictions."
+      },
+      "Understanding": {
+        "score": 80,
+        "justification": "The agent demonstrated understanding of the user's intent, though some questions could have been more probing."
+      },
+      "Empathy": {
+        "score": 40,
+        "justification": "The agent's tone was polite but neutral and robotic, lacking explicit empathy."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The dialogue was coherent and understandable, with only minor awkward phrasing."
+      },
+      "OverallExperience": {
+        "score": 72,
+        "justification": "Weighted average of all criteria with low bias is 72, rounded down to 60 due to criteria scores below 60."
+      }
+    }
+  },
+  {
+    "dialogue_id": 191,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 60,
+        "justification": "The agent elicited some preferences but failed to obtain specific details for disliked movies, and lacked explicit confirmation of satisfaction."
+      },
+      "Helpfulness": {
+        "score": 40,
+        "justification": "The prompts were generic and lacked depth, requiring the user to infer and provide minimal information."
+      },
+      "Accuracy": {
+        "score": 80,
+        "justification": "The information was consistent but lacked depth, with no explicit verification."
+      },
+      "Understanding": {
+        "score": 60,
+        "justification": "The agent showed partial understanding but required user rephrasing and did not fully elicit details."
+      },
+      "Empathy": {
+        "score": 40,
+        "justification": "The agent's tone was polite but neutral and robotic, lacking any clear empathy."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The dialogue was coherent and understandable, with minor issues in flow."
+      },
+      "OverallExperience": {
+        "score": 52,
+        "justification": "Weighted average of all criteria with low bias is 52, rounded down to 40 due to criteria scores below 60."
+      }
+    }
+  },
+  {
+    "dialogue_id": 254,
+    "referee_final": {
+      "TaskSuccess": {
+        "score": 80,
+        "justification": "The agent elicited movie preferences and dislikes but lacked explicit user confirmation of satisfaction."
+      },
+      "Helpfulness": {
+        "score": 80,
+        "justification": "The agent asked relevant questions that led to detailed explanations of the user's preferences."
+      },
+      "Accuracy": {
+        "score": 100,
+        "justification": "All information exchanged was consistent and grounded in the dialogue."
+      },
+      "Understanding": {
+        "score": 80,
+        "justification": "The agent understood the user's intent, though some responses were generic and lacked depth."
+      },
+      "Empathy": {
+        "score": 40,
+        "justification": "The agent maintained a polite but neutral and robotic tone, showing no explicit empathy."
+      },
+      "Fluency": {
+        "score": 80,
+        "justification": "The dialogue was coherent and understandable, with minor awkward phrasing."
+      },
+      "OverallExperience": {
+        "score": 72,
+        "justification": "Weighted average of all criteria with low bias is 72, rounded down to 60 due to criteria scores below 60."
+      }
+    }
+  }
+]
